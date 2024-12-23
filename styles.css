@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-style: normal;   
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+.container1 {
+    margin: 150px 400px 50px 400px;
+    background-color: white;
+    width: 450px  
+}
+
+.container2 {
+    margin: 50px 400px;
+    background-color: white;
+    width: 450px  
+}
+
+.container3 {
+    margin: 50px 400px;
+    background-color: white;
+    width: 450px  
+}
+
+.container4 {
+    margin: 50px 400px;
+    background-color: white;
+    width: 450px  
+}
+
+.heading {
+   display: flex;
+    padding: 10px; 
+}
+#round {
+    background-color: black;
+    border: 1px solid red;
+    padding: 12px;
+
+    height: 20px;
+    border-radius: 200px;
+    display: inline-block;
+}
+/* round4 is to add distinctive features to the heading of the container 4 */
+#round4 {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 12px;
+
+    height: 20px;
+    border-radius: 200px;
+    display: inline-block;
+}
+
+    .tooltip {
+        position: relative;
+       
+    }
+
+        .tooltip .tooltiptext {
+            position: absolute;
+            top: -20px;
+            right: 10px;
+            visibility: hidden;
+            width: 100px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 3px 1px;    
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 0.7;
+       font-size: smaller;
+       font-style: italic;
+      }
+
+.heading h3 {
+    font-size: small;
+    position: relative;
+    left: 5px;
+    bottom: -5px;
+}
+p .round {
+    position: relative;
+    left: 310px;
+    background-color: black;
+    padding: 3px;
+    height: 5px;
+    width: 5px;
+    border-radius: 200px;
+    display: inline-block;
+}
+p.p1 {
+    position: relative;
+    left: -30px;
+}
+p .round:hover {
+    background-color: aliceblue;
+}
+      
+.img1 img {
+    /*transition: width 1s height 1s;*/
+    border: 1px solid lightskyblue;
+    object-fit: contain;
+}
+/* .img1 img:active, :hover {
+    width: 550px;
+    height: 550px;
+} */
+
+.img2, .img3 img {
+    object-fit: cover;
+}
+.img4 img {
+    object-fit: contain;
+}
+.text {
+    margin: -2px;
+    padding: 15px 23px;
+    border-top: 1px solid lightgrey;
+    width: 450px;
+    font-family: sans-serif !important;
+    font-weight: 100 !important;
+    font-style: normal;  
+}
+/* Some of the codes implemented are generated as I go, through reviewing and adjusting elements where necessary */
+
